@@ -218,9 +218,6 @@ for batch_size in batch_sizes:
         training_times.append(time_cpu)
         labels.append(f'CPU {threads} Threads (Batch {batch_size})')
 
-        # Save CPU model to project directory
-        torch.save(nn_model_cpu.state_dict(), f"{threads}threadcpu{batch_size}.pth")
-
     # GPU model
     print(f"\nTraining GPU Model:")
     nn_model_gpu = create_convnet(3, len(datasets.ImageFolder(root='./data/train').classes))
@@ -232,9 +229,6 @@ for batch_size in batch_sizes:
     histories.append(history)
     training_times.append(time_gpu)
     labels.append(f'GPU (Batch {batch_size})')
-
-    # Save GPU model to project directory
-    torch.save(nn_model_gpu.state_dict(), f"gpu{batch_size}.pth")
 
     # Plot first batch onto training time graph, then any subsequent batch gets mapped to its own graph
     if batch_size == 128:
