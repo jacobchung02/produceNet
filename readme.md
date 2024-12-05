@@ -20,21 +20,24 @@
 
 <br><br>
 
-
-<h4>2.)	Download <a href= "https://developer.nvidia.com/cuda-11-8-0-download-archive" target="_blank">CUDA Toolkit 11.8</a> as well as PyTorch and its companion libraries using (pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118)</h4>
+<h4>2.)	Download <a href= "https://developer.nvidia.com/cuda-11-8-0-download-archive" target="_blank">CUDA Toolkit 11.8</a> to utilize CUDA GPU acceleration </h4>
 <br><br>
   <img src="https://github.com/user-attachments/assets/48a4ff56-4bb3-4cfd-90fb-4f055715174e" width="1100" height="300"/>
 <br><br>
 
-<h4>3.)	Depending on your CPU type, uncomment line #15 if you are running on an intel CPU</h4>
-
-<img src="https://github.com/user-attachments/assets/f3ea33d8-8053-488f-9419-674bc1ebb537" width="1100" height="75"/>
-
+<h4>3.)	Download PyTorch and its companion libraries using (pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118)</h4>
 
 <br><br>
 
+<h4>4.)	Depending on your CPU type, uncomment line #15 if you are running on an intel CPU</h4>
 
-<h4>4.)	Once this is all set, you are ready to run the code</h4>
+<br><br>
+
+<img src="https://github.com/user-attachments/assets/f3ea33d8-8053-488f-9419-674bc1ebb537" width="1100" height="75"/>
+
+<br><br>
+
+<h4>5.)	Once this is all set, you are ready to run the code</h4>
 
 <img src="https://github.com/user-attachments/assets/9bf2bc68-3bd5-44a6-9d3f-feb761219ce0" width="600" height="175"/>
 <br><br>
